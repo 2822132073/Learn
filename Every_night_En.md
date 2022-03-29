@@ -1,0 +1,225 @@
+# 英语
+
+## 单词区分
+
+|                          |                                    |
+| ------------------------ | ---------------------------------- |
+| `some time`              | 一段时间                           |
+| `sometime`               | 某个时候                           |
+| `sometimes`              | 有时,间或                          |
+| `some times`             | 几倍,几次                          |
+| `electric`               | 电的，发电的，导电的               |
+| `electrical`             | 与电有关的，电的，指与电有关的事物 |
+| `electron`               | 电子                               |
+| `electronic`             | 电子的                             |
+| `on the way`             | 在路上                             |
+| `in the way`             | 妨碍,挡道                          |
+| `by the way`             | 顺便问一下                         |
+| `off the way`            | 远离正道                           |
+| `go through `            | 参加；经受                         |
+| `get through `           | 通过;到达                          |
+| `look through  `         | 浏览，温习                         |
+| `live through`           | 度过；经受过                       |
+| `Now that`               | 既然；由于                         |
+| `As if`                  | 犹如，好似                         |
+| `regardless of`          | 不顾，不加理会                     |
+| `Even though`            | 虽然，即使                         |
+| `Ever since`             | 从那时到现在                       |
+| `in a loss`              | 处于困境，一团糟糕                 |
+| `at a loss`              | 困惑                               |
+| `under no circumstances` | 绝不                               |
+| `too much`               | 太多                               |
+| `far from`               | 远离                               |
+| `less than`              | 少于                               |
+| `rather than `           | 而不是                             |
+| `other than`             | 除....以外                         |
+| `more than`              | 超过,不仅仅                        |
+| `in that`                | 因为,由于                          |
+
+## 一些固定搭配
+
+| 英文                                 |                                |
+| ------------------------------------ | ------------------------------ |
+| `It is said that…`                   | 据说……；人们常说……             |
+| `would rather+动词原/would rather not+动词原` | 宁愿，宁可，最好               |
+| `the + 名词 + of + 名词性物主代词`   | ……的……                         |
+| `have /feel no difficulty in doing ` | 做某事没有困难                 |
+| `It is no good （use, fun…) doing… ` | 做……是没有好处（用、乐趣等）的 |
+| `There happen to be`                 | 碰巧发生                       |
+| `形容词/副词 + enough + 不定式`      | 足够……可以做某事               |
+| `why not + 动词原型`                 | 为什么不....                   |
+| `prefer doing sth. to doing sth.`    | 与……比起来，更喜欢……           |
+| `spend time/money (in) doing sth.` | 花费时间做某事 |
+| `spend ...on sth.` | 在某物上花费.... |
+| `too+形容词+a/an+名词+for sb. to do` | 对某人来说太……而不能…… |
+| `used to do ` | 过去常常做某事 |
+| `be used to doing` | 习惯于做某事 |
+| `no matter how/however+形容词/副词+主语+谓语` |  |
+| `only to do` | 不料 |
+| `make + it + adj + to do sth.` |  |
+| `had better do sth` | 最好做某事 |
+| `do you suppose` | 你认为 |
+| `enable sb. to do sth.` | 使得某人做某事 |
+| `make sb. do sth.` | 使某人做某事 |
+| `after + 名词/动名词/从句` |  |
+| `with the exception of` | 除....以外;不包括...在内 |
+| `have/has been to` | 曾经去过 |
+| `be believed to do` | 人们认为..... |
+| `belive it or not` | 信不信由你 |
+| `on second thoughts` | 经重新考虑后，再三考虑 |
+| `escape doing sth.` | 逃避做某事，免于做某事 |
+| `consider doing sth.` | 考虑做某事 |
+| `have sb. do sth` | 让某人做某事 |
+| `not so + adj. + as` | 和....不同 |
+| `have access to` | 可以使用,有接触的....机会 |
+| `allow sb. to do sth.` | 允许某人做某事 |
+| `provide sb. with sth.` | 为某人提供某物 |
+| `apologize for sth.` | 为某事而道歉 |
+| `in search of ` | 寻找,搜寻 |
+| `look forward to doing sth.` | 期望做某事 |
+| `in exchange for` | 交换 |
+| `It's just a matter of time` | 只是时间问题 |
+| `be grateful to sb.` | 感激某人 |
+| `in one's 基数词的复数形式` | 在某人几岁的时候 |
+| `on the market` | 上市,出售 |
+| `let alone` | 更不用说 |
+| `mind doing sth` | 介意做某事 |
+| `agree on` | 就.....达成协议 |
+| `agree to` | 同意.... |
+| `be amazed at sb.` | 对某人感到惊讶 |
+| `there is no point in doing sth.` | 做某事没有意义 |
+| `to one's relief` | 令某人庆幸的是 |
+| `as far as…is concerned` | 就……而言 |
+| `make oneself at home` | 别拘束，随便，就当在家一样 |
+| `talk to sb.` | 与某人谈话 |
+| `blame sb. for sth.` | 因某事责怪某人，（把某事）归咎于某人 |
+| `It’s vital that` | 后面接主语从句时要用虚拟语气 |
+| `as many/much as` | 多达 |
+| `in agreement with` | 同意,一致 |
+| `have no desire to do sth.` | 不想做某事 |
+| `leave one’s work half done` | 只做一半工作 |
+| `put up with` | 忍受 |
+| `in the + 基数词的复数形式` | 表示年代,例如, **In the 1970s/In the 1970's** |
+
+## 在主谓一致中的就近原则
+
+1. 在`名词/代词` + `or` + `名词/代词`做主语的句型的句子中,谓语动词和`or`后的单复数形式一致
+2. 在`either+名词/代词+or+名词/代词`
+3. 在`not only  + 名词/代词 + but(also)+名词/代词`
+4. 在`There be`
+
+## 每,每隔
+
+> 有两种用法:
+>
+> 1. every + 基数词 + 复数名词
+> 2. every + 序数词 + 单数名词
+>
+> `every three months`或者`every third month`
+>
+> 每三个月
+
+## 主动表被动
+
+> `read`,` write`, `act`,` iron`,` cut`, `draw`,` drive`,` sell`,` wash`,` clean`,` wear`,` open`,` cook`,` lock`,` shut`,` dry`,` eat`,` drink`等经常与`well`,`easily`,`smoothly`副词连用,主动表被动
+
+> 当 **need**,**want**,**require**作为需要时,并且其前面的主语为**名词**或者**代词**时,其后常用动名词做宾语
+
+## 倒装
+
+1. **Only + 状语 + 句子** (状语部分不需要倒装,句子部分需要倒装)
+2. **地点状语**在句首,使用倒装语序
+3. **not until** 在句首时,只有**not until**引导的部分需要进行部分倒装
+4. **so/such**放在句首时，后面用部分倒装
+5. **how**引导从句是要求部分倒装的
+
+
+
+**the moment**引导时间状语从句,相当于**as soon as** ,意思为"一....就"
+
+
+
+
+
+
+
+
+
+## 系动词没有被动
+
+> 系动词没有被动形式
+>
+> 系动词有以下几种:
+>
+> 1. 表感官的系动词：**look**，**sound**，**taste**，**smell**，**feel**（这些词用形容词作表语）
+>
+>    > 感官动词后需要使用 动词的**ing**形式表示宾语补足语
+>
+> 2. 表似乎的系动词：**seem**，**appear**
+>
+> 3. 表变化的系动词：**become**，**get**，**turn**，**grow**，**make**，**come**，**go**，**fall**，**run**
+>
+> 4. 表依旧的系动词：**remain**，**keep**，**stay**，**continue**，**stand**，**rest**，**lie**，**hold** 
+
+
+
+## 反意疑问句
+
+1. 基本的是**前肯后否,前否后肯**
+2. 当主句的主语是 **I** 和 **We** ，谓语是 **think**，**believe**，**suppose**，**imagine**，**expect**，**consider**，**guess** 等跟“认为”、“猜想” 有关的词，且是「一般现在时」的时候，疑问部分跟从句对应
+
+![img](https://pic1.zhimg.com/v2-3f51db725444aab93eba6a89164d5f78_b.jpg)
+
+3. **肯定祈使句 + will/ won't you?**
+4. **否定祈使句 + will you?**
+
+
+
+
+
+## 强调句型
+
+### 陈述句强调句
+
+> It is / was + 被强调部分 + that / who / whom**（强调主语且主语指人可用who，强调宾语且宾语指人可用whom）**+ 其他部分
+
+### 一般疑问句强调句
+
+> Is / Was it + 被强调部分 + that / who / whom + 其他部分
+
+### **特殊疑问句的强调句型**
+
+> 疑问词 + is/was it + that/who/whom + 其他部分
+
+
+
+
+
+
+
+It is the + `序数词`+ time + that 从句
+
+从句用过去完成时,表示"那是.......第几次......"
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. **such** 是形容词，可以作定语，修饰名词或名词词组，也可以作表语
+2. 介词后面应该为动名词-ing或者名词
+3. **hundred**, **thousand**, **million**, **billion**, **dozen**, **score**等指具体数字时，不用复数形式；指约数时，常用复数形式且后接**of**
+4. **hardly…when…/no sooner…than…**为固定搭配，意为“刚……就……”，从句常用**一般过去时**，主句常用**过去完成时**
+
+
+
+
+
+![img](https://pic4.zhimg.com/v2-9d91a8ffe85fcb46b993661852d05e3b_b.jpg)
