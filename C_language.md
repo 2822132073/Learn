@@ -2,6 +2,144 @@
 
 
 
+## 字符串处理库函数
+
+### char *strcpy(char *str1, const char *str2);
+
+> 把字符串str2(包括'\0')拷贝到字符串str1当中，并返回str1
+
+### char *strncpy(char *str1, const char *str2, size_t count);
+
+> 把字符串str2中最多count个字符拷贝到字符串str1中，并返回str1。如果str2中少于count个字符，那么就用'\0'来填充，直到满足count个字符为止。
+
+### char *strcat(char *str1, const char *str2);
+
+> 把str2(包括'\0')拷贝到str1的尾部(连接)，并返回str1。其中终止原str1的'\0'被str2的第一个字符覆盖。
+
+### char *strncat(char *str1, const char *str2, size_t count);
+
+> 把str2中最多count个字符连接到str1的尾部，并以'\0'终止str1，返回str1。其中终止原str1的'\0'被str2的第一个字符覆盖。
+> 注意，最大拷贝字符数是count+1。
+
+### int strcmp(const char *str1, const char *str2);
+
+> 按字典顺序比较两个字符串，返回整数值的意义如下：
+> 小于0，str1小于str2；
+> 等于0，str1等于str2；
+> 大于0，str1大于str2；
+
+### int strncmp(const char *str1, const char *str2, size_t count);
+
+> 同strcmp，除了最多比较count个字符。根据比较结果返回的整数值如下：
+> 小于0，str1小于str2；
+> 等于0，str1等于str2；
+> 大于0，str1大于str2；
+
+### char *strchr(const char *str, int ch);
+
+> 返回指向字符串str中字符ch第一次出现的位置的指针，如果str中不包含ch，则返回NULL。
+
+### char *strrchr(const char *str, int ch);
+
+> 返回指向字符串str中字符ch最后一次出现的位置的指针，如果str中不包含ch，则返回NULL。
+
+
+
+## break continue
+
+### break
+
+> 直接退出本次循环,用在`循环`语句和`switch`
+
+```c
+#include<stdio.h>
+#include <stdio.h>
+void main(){
+	int i;
+	printf("A ");
+	for(i=0;i<10;i++){
+		printf("%d ",i);
+		break;
+		printf("B ");
+	}
+	printf("C\n");
+}
+```
+
+> A 0 C
+
+### continue
+
+> 跳过本次循环`continue`下面的语句,直接进行下面的语句
+
+```c
+#include<stdio.h>
+#include <stdio.h>
+void main(){
+	int i;
+	printf("A ");
+	for(i=0;i<10;i++){
+		printf("%d ",i);
+		continue;
+		printf("B ");
+	}
+	printf("C\n");
+}
+
+```
+
+> A 0 1 2 3 4 5 6 7 8 9 C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 在转义字符后的数字一般表示八进制
 
 > 所有的ASCII码都可以用"\"加数字（一般是8进制数字）来表示,还可以使用十六进制
