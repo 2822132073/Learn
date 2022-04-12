@@ -64,7 +64,6 @@
 | `only to do` | 不料 |
 | `make + it + adj + to do sth.` |  |
 | `had better do sth` | 最好做某事 |
-| `do you suppose` | 你认为 |
 | `enable sb. to do sth.` | 使得某人做某事 |
 | `make sb. do sth.` | 使某人做某事 |
 | `with the exception of` | 除....以外;不包括...在内 |
@@ -105,6 +104,11 @@
 | `leave one’s work half done` | 只做一半工作 |
 | `put up with` | 忍受 |
 | `in the + 基数词的复数形式` | 表示年代,例如, **In the 1970s/In the 1970's** |
+| `on the basic of` | 根据；基于… |
+| `have an impact on` | 对于……有影响；对……造成冲击 |
+| `time to spare` | 多出的时间 |
+| `be intended for` | 想用于； 预定给 |
+| `suggest sb. doing sth ` | 建议某人做某事 |
 
 
 
