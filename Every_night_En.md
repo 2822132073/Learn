@@ -109,6 +109,8 @@
 | `time to spare` | 多出的时间 |
 | `be intended for` | 想用于； 预定给 |
 | `suggest sb. doing sth ` | 建议某人做某事 |
+| `independent of` | 不依赖…，独立于… |
+| `be named after` | 以…命名 |
 
 
 
