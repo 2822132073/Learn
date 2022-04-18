@@ -41,6 +41,8 @@
 | `in terms of`            | 依据；按照；在……方面；以……措词     |
 | `in relation to`         | 关于；涉及                         |
 | `in spite of`            | 尽管；不管，不顾                   |
+| `at once`                | 立刻,马上                          |
+| `at times`               | 有时,偶尔                          |
 
 ## 一些固定搭配
 

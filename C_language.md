@@ -4,6 +4,150 @@
 
 [TOC]
 
+## 考试需要注意的问题
+
+### 相关细节
+
+1. 注意`if`,`for`,`while`相关语句后面时候有大括号,以防弄错执行范围
+2.  字符`0`ascii码为48,`A`是65,`a`是`97`
+
+### 编程
+
+#### 最大公约数和最小公倍数
+
+> **最大公因数**，也称最大公约数、最大公因子，指两个或多个整数共有约数中最大的一个；**最小公倍数**是指两个或多个整数公有的倍数叫做它们的公倍数，其中除0以外最小的一个公倍数就叫做这几个整数的最小公倍数。最小公倍数=两整数的乘积÷最大公约数 ， 所以怎么求最大公约数是关键。
+
+```c
+#include<stdio.h>
+void main()
+{
+	int num1=4,num2=8,temp,n1=num1,n2=num2;
+	while(num2!=0){
+		temp = num1%num2;
+		num1=num2;
+		num2=temp;
+	}
+	printf("最大公约数: %d 最小公倍数: %d\n",num1,n1*n2/num1);
+}
+```
+
+
+
+#### 闰年
+
+> 1. 非整百年：能被4整除的为闰年。（如2004年就是闰年,2100年不是闰年）
+> 2. 整百年：能被400整除的是闰年。(如2000年是闰年，1900年不是闰年)
+
+```c
+#include<stdio.h>
+void main()
+{
+	int year=2000;
+	for(;year<3000;year++){
+		if(year%400==0||year%4==0&&year%100!=0){
+			printf("%d YES\n",year);
+		}
+	}
+}
+```
+
+#### 斐波那契数列
+
+> f(n) = f(n-1) + f(n-2)
+
+```c
+#include<stdio.h>
+
+int Fibonacci(int n){
+	if(n==0)return 0;
+	else if(n==1){return 1;}
+	else  return Fibonacci(n-1)+Fibonacci(n-2);
+}
+
+void main()
+{
+	int n=5;
+	printf("%d\n",Fibonacci(n));
+}
+```
+
+#### 素数(质数)
+
+> 大于1的[自然数](https://baike.baidu.com/item/自然数/385394)中，除了1和它本身以外不再有其他[因数](https://baike.baidu.com/item/因数/9539111)的自然数。
+
+```c
+bool isPrime(int n){
+	int i;
+	for(i=2;i<n;i++){
+		if(n%i==0)return false;
+	}
+	return true;
+}
+```
+
+
+
+#### 复制字符串
+
+```c
+void copyString(char *s1,char *s2){
+	int i=0;
+	while((s1[i]=s2[i])!='\0')i++;
+}
+```
+
+
+
+#### 冒泡排序
+
+```c
+void main()
+{
+	int a[10]={-1,2,5,2,8,99,2,51,5,90},i,j,temp;
+	for(i=0;i<10-1;i++){
+		for(j=0;j<10-1-i;j++){
+			if(a[j]>a[j+1]){
+				temp=a[j];
+				a[j]=a[j+1];
+				a[j+1]=temp;
+			}
+		}
+	}
+	for(i=0;i<10;i++){
+		printf("%d ",a[i]);
+	}
+}
+```
+
+
+
+#### 倒叙输出
+
+```c
+```
+
+
+
+#### 连接字符串
+
+```c
+//将s2的字符放到s1后面去
+void connectString(char *s1,char *s2){
+	while(*(++s1)!='\0');
+	while((*s1++=*s2++)!='\0');
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 ## C语言中符号
 
 | 符号 | 名称                                                         |
@@ -69,12 +213,6 @@
 #### 字符串常量
 
 > 字符串常量是用“双撇号”括起来的多个字符的序列，如"How are you"、"I love you"、"你好"。当然，只要是“双撇号”括起来的，就算只有一个字符也叫字符串，如"a"。字符常量 'a'与字符串常量"a"是不同的。
-
-### 
-
-####
-
-
 
 
 
@@ -239,8 +377,8 @@ void main()
 	while((n*n)<=1989){
 		n++;
 	}
-	for(x=1;x<n;x++){
-		for(y=1;y<n;y++){
+	for(x=-n;x<n;x++){
+		for(y=-45;y<n;y++){
 			if((x*x+y*y)==1989){
 				printf("x=%d y=%d\n",x,y);
 			}
@@ -457,6 +595,73 @@ void main()
 	}
 }
 ```
+
+
+
+### 输入一行小写字母后，将字母变成其下一字母（a变成b、b变成c、c变成d、…、x变成y、y变成z、z变成a）输出
+
+```c
+#include<stdio.h>
+void main()
+{
+	int i=0;
+	char string[10];
+	scanf("%s",string);
+	while(string[i]!='\0'){
+		string[i]=(string[i]-97+1)%26+'a';
+		i++;
+	}
+	printf("%s\n",string);
+}
+```
+
+
+
+### 编写一个函数，处理n行、n列的二维数组：将每一行的元素同除以该行上绝对值最大的元素。
+
+```c
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+	int a[3][4]={{1,-5,2,3},{3,5,-6,7},{9,8,10,-3}},max[4],i,j;
+	for(i=0;i<3;i++){
+		max[i]=a[i][0];
+		for(j=1;j<4;j++){
+			if(abs(max[i])<abs(a[i][j]))max[i]=a[i][j];
+		}
+	}
+//	for(i=0;i<3;i++){printf("%d ",max[i]);}
+	for(i=0;i<3;i++){
+		for(j=0;j<4;j++){
+			a[i][j]/=max[i];
+		}
+	}
+	for(i=0;i<3;i++){
+		for(j=0;j<4;j++){
+			printf("%d ",a[i][j]);
+		}
+		printf("\n");
+	}
+}
+```
+
+
+
+### 编写函数，求任意阶多项式 a0+a1X+a2X2+...+anXn 的值并返回多项式的值。
+
+```c
+
+```
+
+
+
+### 设计一个函数，使给出一个数的原码，能得到该数的补码。
+
+```c
+```
+
+
 
 
 
