@@ -8,8 +8,32 @@
 
 ### 相关细节
 
-1. 注意`if`,`for`,`while`相关语句后面时候有大括号,以防弄错执行范围
-2.  字符`0`ascii码为48,`A`是65,`a`是`97`
+1. 注意`if`,`for`,`while`相关语句后面的`;`和`{}`,以防弄错执行范围
+2. 字符`0`ascii码为48,`A`是65,`a`是`97`
+3. `while(s(++len))`求的是字符串长度,也就是`strlen`的作用(字符串不包含`\0`的长度)
+4. `while(s(len++))`求的是字符串包含`\0`共有多少字符
+5. 二维数组定义`a[2][4]`为两行四列
+6. 宏可以写在函数任意位置
+7. `do..while..`循环: 循环体和条件表达式执行次数一样
+8. `while`循环: 条件表达式比循环体执行次数多一次
+9. `p=NULL`,`p=0`,`p='\0'`三者等价
+10. 不能将字符串直接赋值给命名字符数组,只能在初始时复制
+11. 两个字符串数组之间不能直接赋值,需要借助`strcpy(dest, src);`
+12. 位运算的对象只能是整型和字符型
+13. 符号常量相当于定义一个宏
+14. `printf("%d,%d", b, b = b + 2);`执行结果为`4,4`,因为`printf`执行表达式的顺序是从左到右
+15. 注意strlen返回的字符串的长度不包括结束符`\0`,指针变量的占用4字节
+16. C语言两个`%`,打印结果为一个`%`,`printf("%%");`的输出结果为`%`
+17. `scanf`在输入字符串时,以空格作为分隔符,`gets`输入字符串时以回车符作为结束符
+18. 数组为指针常量,不可以进行修改
+19. 整形变量在没有初始化初值的情况下,它的值是随机的
+20. `EOF`的值是`-1`,`EOF`必须在文本文件中才能出现
+21. `sizeof`是不是函数,是一个表达式
+22. `int x=y=1`,是错的,需要对y进行进行定义才可以进行赋值
+23. `printf`的`%md` 中的m是规定十进制数的最小宽度
+24. 就算是返回类型是`void`,函数也可以使用`return`,只不过不能在后面加认识东西 就像: `return;`
+25. 0按位取反的值为-1
+26. C语言默认是左对齐 但是在添加宽度后就变成右对齐
 
 ### 编程
 
@@ -138,13 +162,111 @@ void connectString(char *s1,char *s2){
 }
 ```
 
+#### 反转二维数组(行列反转)
+
+```c
+void reversal(int a[3][3]){
+	int i,j,temp;
+	for(i=0;i<3;i++){
+		for(j=i+i;j<3;j++){
+			temp=a[i][j];
+			a[i][j]=a[j][i];
+			a[j][i]=temp;
+		}
+	}
+}
+```
+
+#### 反序存放字符串
+
+```c
+void reversal_string(char *s){
+	int len=0,i;
+	char c;
+	while(s[++len]!='\0');
+	for(i=0;i<len/2;i++){
+		c=s[len-i-1];
+		s[len-i-1]=s[i];
+		s[i]=c;
+	}
+```
+
+#### 寻找最长单词
+
+````c
+int longestWord(char *s){
+	int max_len=0,len=0;
+	while(*s!='\0'){
+		if(*s!=' ' && *s !='\0')
+			len++;
+		else{
+			printf("len=%d\n",len);
+			if(max_len<len)max_len=len;
+			len=0;
+		}
+		s++;
+	}
+	return max_len;
+}
+
+````
 
 
 
+#### 统计各种字符个数,并且在函数中输出
+
+```c
+void statistics(char *s){
+	int en=0,num=0,blank=0,other=0;
+	while(*s!='\0'){
+		if(*s>='a' && *s<='z' || *s>='A' && *s <='Z')en++;
+		else if(*s>='0'&&*s<='9')num++;
+		else if(*s==' ')blank++;
+		else other++;
+		s++;
+	}
+	printf("letter=%d number=%d blank=%d other=%d\n",en,num,blank,other);
+}
+```
 
 
 
+#### 插入空格
 
+```c
+void insertBlank(int n){
+	char s[10];
+	int i=6;
+	s[i+1]='\0';
+	while(i>=0){
+		if(i%2==0){
+			s[i--]='0'+n%10;
+			n=n/10;
+		}else{
+			s[i--]=' ';
+		}	
+	}
+	printf("%s\n",s);
+}
+```
+
+
+
+#### 将s1中的元音字符复制到s2中
+
+```c
+void copyVowel(char *s1,char *s2){
+	int i=0;
+	while(*s1!='\0'){
+		if(*s1=='a' ||*s1=='e' ||*s1=='i' || *s1=='o'||*s1=='u'){
+			s2[i++]=*s1;
+		}
+		s1++;
+	}
+	s2[i]='\0';
+	printf("%s\n",s2);
+}
+```
 
 
 
@@ -214,46 +336,92 @@ void connectString(char *s1,char *s2){
 
 > 字符串常量是用“双撇号”括起来的多个字符的序列，如"How are you"、"I love you"、"你好"。当然，只要是“双撇号”括起来的，就算只有一个字符也叫字符串，如"a"。字符常量 'a'与字符串常量"a"是不同的。
 
+## 相关库函数
+
+### 字符处理函数(ctype.h)
+
+#### int isalnum(int c)
+
+> 该函数检查所传的字符是否是字母和数字。
+
+#### int isalpha(int c)
+
+> 该函数检查所传的字符是否是字母。
+
+#### int islower(int c)
+
+> 该函数检查所传的字符是否是小写字母。
+
+#### int isspace(int c)
+
+> 该函数检查所传的字符是否是空白字符。
+
+#### int isxdigit(int c)
+
+> 该函数检查所传的字符是否是十六进制数字。
+
+#### int tolower(int c)
+
+> 该函数把大写字母转换为小写字母。
+
+#### int toupper(int c)
+
+> 该函数把小写字母转换为大写字母。
 
 
-## 字符串处理库函数
 
-### char *strcpy(char *str1, const char *str2);
+
+
+
+
+
+
+
+
+
+
+### 数学处理函数(math.h)
+
+#### 
+
+### 字符串处理库函数(string.h)
+
+#### char *strcpy(char *str1, const char *str2);
 
 > 把字符串str2(包括'\0')拷贝到字符串str1当中，并返回str1
 
-### char *strncpy(char *str1, const char *str2, size_t count);
+#### char *strncpy(char *str1, const char *str2, size_t count);
 
 > 把字符串str2中最多count个字符拷贝到字符串str1中，并返回str1。如果str2中少于count个字符，那么就用'\0'来填充，直到满足count个字符为止。
 
-### char *strcat(char *str1, const char *str2);
+#### char *strcat(char *str1, const char *str2);
 
 > 把str2(包括'\0')拷贝到str1的尾部(连接)，并返回str1。其中终止原str1的'\0'被str2的第一个字符覆盖。
 
-### char *strncat(char *str1, const char *str2, size_t count);
+#### char *strncat(char *str1, const char *str2, size_t count);
 
 > 把str2中最多count个字符连接到str1的尾部，并以'\0'终止str1，返回str1。其中终止原str1的'\0'被str2的第一个字符覆盖。
 > 注意，最大拷贝字符数是count+1。
 
-### int strcmp(const char *str1, const char *str2);
+#### int strcmp(const char *str1, const char *str2);
 
 > 按字典顺序比较两个字符串，返回整数值的意义如下：
 > 小于0，str1小于str2；
 > 等于0，str1等于str2；
 > 大于0，str1大于str2；
 
-### int strncmp(const char *str1, const char *str2, size_t count);
+#### int strncmp(const char *str1, const char *str2, size_t count);
 
 > 同strcmp，除了最多比较count个字符。根据比较结果返回的整数值如下：
 > 小于0，str1小于str2；
 > 等于0，str1等于str2；
 > 大于0，str1大于str2；
 
-### char *strchr(const char *str, int ch);
+#### char *strchr(const char *str, int ch);
 
 > 返回指向字符串str中字符ch第一次出现的位置的指针，如果str中不包含ch，则返回NULL。
 
-### char *strrchr(const char *str, int ch);
+#### char *strrchr(const char *str, int ch);
 
 > 返回指向字符串str中字符ch最后一次出现的位置的指针，如果str中不包含ch，则返回NULL。
 

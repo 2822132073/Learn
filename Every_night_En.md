@@ -113,6 +113,51 @@
 | `suggest sb. doing sth ` | 建议某人做某事 |
 | `independent of` | 不依赖…，独立于… |
 | `be named after` | 以…命名 |
+| `have a hard time doing` | 做某事有困难 |
+
+
+
+## 英语作文需要记的一些句子
+
+1. Forgive me for not writing to you earlier.
+
+   > 请原谅我没有早点给你写信
+
+2. I have not heard from you for over a month.
+
+   > 我已经一个多月没有收到你的来信了
+
+3. It was very kind of you to reply so quickly.
+
+   > 你能这莫快回信真是太好了
+
+4. Think you so much for your congratulations.
+
+   > 非常感谢你的祝贺
+
+5. Please forgive me for not answering you letter in time.
+
+   > 请原谅我没有及时给你回信
+
+6. I shall be looking forward to hearing from you soom.
+
+   > 盼望很快收到您的来信
+
+7. Please kindly remember me to your family.
+
+   > 请代我向你的家人问好
+
+8. Please give me regards to your parents.
+
+   > 请代我向你的父母问好
+
+
+
+
+
+
+
+
 
 
 
