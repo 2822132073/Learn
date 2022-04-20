@@ -268,6 +268,142 @@ void copyVowel(char *s1,char *s2){
 }
 ```
 
+#### 选择法排序
+
+```c
+//选择法排序
+void choiceSort(int n[10],int len){
+	int i,j,k,temp;
+	for(i=0;i<len-1;i++){ //10个数字需要进行9次扫描,不需要扫描10次,9次扫描后,最后一定是最大的数
+		k=i;     
+		for(j=i+1;j<len;j++){  //每次都需要比较到最后一位
+			if(n[k]>n[j])k=j;   //将数组中最小的数存储在k中  
+		}
+		temp=n[k];  //将最小的值向前移动
+		n[k]=n[i];
+		n[i]=temp;
+	}	
+}
+
+
+```
+
+#### 对角线元素之和
+
+```c
+//对角线元素之和
+int diagonalSum(int a[3][3]){
+	int i,sum=0;
+	for(i=0;i<3;i++){
+		sum+=a[i][i];
+	}
+	return sum;
+}
+```
+
+#### 插入数字
+
+```c
+//按照数组规律插入数组,len为当前数组有多少个有效数字,insertNumber为要插入的数字
+void insert(int a[10],int len,int insertNumber){
+	int i,t1,t2=insertNumber,index;
+	for(i=0;i<len;i++){
+		if(a[i]<=insertNumber && a[i+1]>=insertNumber){ //找到要插入的位置
+			index=i+1;  
+			break;
+		}
+	}
+	for(i=index;i<len+1;i++){  //将数组数字向后移动
+		t1=a[i];
+		a[i]=t2;
+		t2=t1;
+	}
+}
+```
+
+#### 杨辉三角
+
+```c
+//row为需要打印的行数,如果row>10,需要增加传入数组的大小
+void  pascalTriangle(int a[10][10],int row){  
+	int i,j;
+	for(i=0;i<row;i++){
+		a[i][0]=a[i][i]=1;
+		for(j=1;j<i;j++){
+			a[i][j]=a[i-1][j]+a[i-1][j-1];
+		}
+	}
+	for(i=0;i<row;i++){
+		for(j=0;j<row;j++){
+			if(a[i][j]>=1){
+				printf("%d   ",a[i][j]);
+			}
+
+		}
+				printf("\n");
+	}
+}
+
+
+```
+
+
+
+#### 寻找鞍点
+
+> 鞍点是行上最大，列上最小的元素
+
+```c
+
+void fun(int a[3][4],int row,int line){
+	int i,j,point_r,point_l,flag;
+	for(i=0;i<row;i++){
+		point_r=i;   
+		point_l=0;
+		flag=1;
+		for(j=1;j<line;j++){   //找出行中最大数字的坐标
+			if(a[i][point_l]<a[i][j])point_l=j;
+		}
+		for(j=1;j<row;j++){   //再看这个数是不是这列中的最小的,不是的话修改flag的值
+			if(a[point_r][point_l]>a[j][point_l]){
+				flag=0;
+				break;
+			}
+		}
+		if(flag==1){
+			printf("row=%d line=%d\n",point_r,point_l);
+			break;
+		}else if(flag!=1 && i==row-1){
+			printf("No!!!!\n");
+		}
+	}
+}
+```
+
+
+
+#### 二分法
+
+```c
+//二分法,len为长度,n为查找的数字,返回下标
+int dichotomy(int a[],int len,int n){
+	int L,R,mid;
+	L=0;
+	R=len-1;
+	mid=len/2;
+	while(L<=R){
+		if(a[mid]==n){
+			return mid;
+		}else if(a[mid]<n){
+			L=mid+1;
+		}else if(a[mid]>n){
+			R=mid-1;
+		}
+		mid=(L+R)/2;
+	}
+}
+```
+
 
 
 ## C语言中符号

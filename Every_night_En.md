@@ -43,6 +43,7 @@
 | `in spite of`            | 尽管；不管，不顾                   |
 | `at once`                | 立刻,马上                          |
 | `at times`               | 有时,偶尔                          |
+| `apart from`             | 除...外                            |
 
 ## 一些固定搭配
 
