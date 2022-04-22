@@ -227,7 +227,7 @@
 
 ### that
 
-1. 定语 only**，**序数词**和**最高级**
+1. 前面有 **only**，**序数词**和**最高级** 表示限定时
 2. 先行词是 **nothing**,**everything**,**something**,**nothing**,**much**,**little**,**none**等被**不定代词**或被**不定代词**修饰时
 
 
