@@ -35,6 +35,30 @@
 25. 0按位取反的值为-1
 26. C语言默认是左对齐 但是在添加宽度后就变成右对齐
 
+
+
+### 相关简答题
+
+#### C语言中什么是算数运算？什么是关系运算？什么是逻辑运算？
+
+> 1.算术运算就是指加减乘除和整数的模运算（即取余数运算）。
+>
+> 2.关系运算就是比较运算，将两个数值进行比较，判断其比较结果是否符合给定的条件。
+>
+> 3.逻辑运算指两个条件进行运算，有逻辑与、逻辑或、逻辑非三种。
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 编程
 
 #### 最大公约数和最小公倍数
@@ -52,6 +76,23 @@ void main()
 		num2=temp;
 	}
 	printf("最大公约数: %d 最小公倍数: %d\n",num1,n1*n2/num1);
+}
+```
+
+```c
+//最大公约数
+int gcd(int a,int b){
+	int temp;
+	while(b!=0){
+		temp=a%b;
+		a=b;
+		b=temp;
+	}
+	return a;
+}
+//最小公倍数
+int lcm(int a,int b){
+	return a*b/gcd(a,b);
 }
 ```
 
@@ -406,15 +447,176 @@ int dichotomy(int a[],int len,int n){
 
 
 
-## C语言中符号
+#### 密码与原文相互转换
 
-| 符号 | 名称                                                         |
-| ---- | ------------------------------------------------------------ |
-| *    | 在定义变量时,是一个说明符,在对指针变量进行引用时为`间址运算符` |
-|      |                                                              |
-|      |                                                              |
+```c
+//密码与译文之间的转换
+void encode(char *plaintText,char *cipherText){
+	while(*plaintText!='\0'){
+		if(*plaintText>='a' && *plaintText<='z'){
+			*cipherText='a'+(26-(*plaintText-'a'+1));
+		}else if(*plaintText >= 'A' && *plaintText<='Z'){
+			*cipherText='A'+(26-(*plaintText-'A'+1));
+		}else{
+			*cipherText=*plaintText;
+		}
+		cipherText++;
+		plaintText++;
+	}
+	*cipherText='\0';
+}
 
-## 冒泡
+//明文与密码相互转换
+void decode(char *cipherText,char *plaintText){
+	while(*cipherText!='\0'){
+		if(*cipherText>='a' && *cipherText<='z'){
+			*plaintText='a'+('z'-*cipherText);
+		}else if(*cipherText >= 'A' && *cipherText<='Z'){
+			*plaintText='A'+('Z'-*cipherText);
+		}else{
+			*plaintText=*cipherText;
+		}
+		cipherText++;
+		plaintText++;
+	}
+	*plaintText='\0';
+}
+
+```
+
+
+
+#### 字符串比较函数
+
+```c
+int strcmp(char *s1,char * s2){
+	while(*s1!='\0' && *s2!='\0'){
+		if(*s1==*s2){
+			s1++;
+			s2++;
+		}else{
+			return *s1-*s2;
+		}
+	}
+	return 0;
+}
+```
+
+
+
+#### 课本137,第5题
+
+```c
+int fun(int n){
+	int sum=0,a=2,pre=0,i;
+	for(i=1;i<=n;i++){
+		pre=pre*10+2;
+		sum+=pre;
+	}
+	return sum;
+}
+```
+
+
+
+#### 完数
+
+> 一个数因子之和等于这个数
+>
+> 因子:A能被B整除,A就是B的因子,例如: 15的因子有1,3,5
+
+```c
+#include<stdio.h>
+void main()
+{
+	int n,i,j=0,factor[1000]={0},sum=0;
+	for(i=1;i<=1000;i++){
+		for(n=1;n<i;n++){  //找出i的因子
+			if(i%n==0){
+				factor[j++]=n; 
+				sum+=n;  //将这些因数相加
+			}
+		}
+		if(sum==i){
+			printf("完数: %d 因子为: ",sum);
+			for(n=0;n<j;n++){
+				if(factor[n]>0){
+					printf("%d,",factor[n]);
+				}
+			}
+			printf("\n");
+		}
+		j=0;
+		sum=0;
+	}
+}
+```
+
+
+
+#### 水仙花数
+
+> 水仙花数是三位数,其各位数字的立方相加等于该数本身
+
+```c
+#include<stdio.h>
+void main()
+{
+	int i,j,k,sum;
+	for(i=1;i<=9;i++){
+		for(j=0;j<=9;j++){
+			for(k=0;k<=9;k++){
+				if(i*i*i+j*j*j+k*k*k==i*100+j*10+k){
+					printf("%d\n",i*100+j*10+k);
+				}
+			}
+		}
+	}
+
+}
+```
+
+
+
+#### 阶乘的相加
+
+> 例如n为5
+>
+> 就是 1+1x2+1x2x3+1x2x3x4+1x2x3x4x5
+
+```c
+int factorial(int n){
+	int i,temp=1,sum=1;
+	for(i=2;i<=n;i++){
+		temp*=i;
+		sum+=temp;
+		printf("%d %d\n",sum,temp);
+	}
+	return sum;
+}
+```
+
+
+
+#### P138_11
+
+> 一球从100米高度自由落下，每次落地后反弹回原来高度的一半，再落下，求它第10次落地时，共经过多少米，？第十次反弹多高？
+
+```c
+void main()
+{
+	float height=100.0;
+	float meter=100.0;
+	int n=2;
+	for(;n<=10;n++){
+		meter += height/2*2;
+		height /=2;
+	}
+	printf("height=%f meter=%f\n",height,meter);
+}
+```
+
+#### 冒泡
 
 ```c
 	for(i=0;i<m-1;i++){
@@ -427,6 +629,51 @@ int dichotomy(int a[],int len,int n){
 		}
 	}
 ```
+
+
+
+#### 猴子吃桃问题
+
+```c
+
+int monkeyEatPeach(int i){
+	if(i==10){
+		return 1;
+	}else{
+		return 2*(monkeyEatPeach(i+1)+1);
+	}
+}
+
+
+void main()
+{
+	int i,n=1,sum=n;
+	for(i=10;i>=2;i--){
+		n=(n+1)*2;
+		sum+=n;
+		printf("%d %d\n",i,n);
+	}
+	printf("%d\n",monkeyEatPeach(1));
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+## C语言中符号
+
+| 符号 | 名称                                                         |
+| ---- | ------------------------------------------------------------ |
+| *    | 在定义变量时,是一个说明符,在对指针变量进行引用时为`间址运算符` |
+|      |                                                              |
+|      |                                                              |
 
 
 

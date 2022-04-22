@@ -73,6 +73,7 @@
 | `have/has been to` | 曾经去过 |
 | `be believed to do` | 人们认为..... |
 | `belive it or not` | 信不信由你 |
+| `sb. be belive to do sth.` | 据说某人做了某事 |
 | `on second thoughts` | 经重新考虑后，再三考虑 |
 | `escape doing sth.` | 逃避做某事，免于做某事 |
 | `consider doing sth.` | 考虑做某事 |
@@ -115,6 +116,14 @@
 | `independent of` | 不依赖…，独立于… |
 | `be named after` | 以…命名 |
 | `have a hard time doing` | 做某事有困难 |
+| `keep sb．informed of` | 随时告知某人… |
+| `appreciate doing sth.` |  |
+| `permit doing` | 许可做某事 |
+| `be reported to` | 据报道 |
+| `stick to doing sth.` | 坚持做某事 |
+| `be to do sth.` | 按照计划或者将要进行的 动作 |
+| `sb. is said to do` | 据说某人.... |
+|  |  |
 
 
 
@@ -154,9 +163,72 @@
 
 
 
+## 虚拟语气
+
+> 1. It is (hight/about) time (time).....中,从句谓语动词多用过去式,有时也用 should + 动原,should不可省略
+> 2. for fear that,lest,in case 后常用 should + 动原,should可以省略
+
+### 在if引导的虚拟语气中
+
+| 时间 | 主句形式                                 | 从句形式                                                    |
+| ---- | ---------------------------------------- | ----------------------------------------------------------- |
+| 现在 | should/would/could/might + 动词原型      | 动词的过去式(be -> were)                                    |
+| 过去 | should/would/could/might have + 过去分词 | had + 过去分词                                              |
+| 未来 | should/would/could/might + 动词原型      | 1. 动词的过去式(be -> were) 2. should + 动原 3.were to+动原 |
+
+1. 主语和从句的时态不同,应该各用各的时态
+2. 主语从句表示建议,命令,要求,决定,主张等,从句谓语动词应该用 "should + 动原",should可以省略
+
+### wish,if only,as if,as thoug 引导的时,从句
+
+| 时间 | 从句                     |
+| ---- | ------------------------ |
+| 现在 | 动词的过去式(be -> were) |
+| 过去 | had + 过去分词           |
+| 将来 | should + 动原            |
+
+### would rather ,would sooner,would as soon,would prefer 时,从句
+
+| 时间 | 从句                     |
+| ---- | ------------------------ |
+| 现在 | 动词的过去式(be -> were) |
+| 过去 | had + 过去分词           |
+| 将来 | 动词的过去式(be -> were) |
 
 
 
+### 在含蓄条件句中
+
+> 指的是with, without, but for, otherwise, or, under等代替条件状语从句
+
+| 时间 | 从句                                 |
+| ---- | ------------------------------------ |
+| 现在 | should/would/could/might + 动词原型  |
+| 过去 | should/would/could/might + have done |
+| 将来 | should/would/could/might + 动词原型  |
+
+
+
+
+
+
+
+
+
+## 定语从句
+
+> 定语从句一般使用的有:
+>
+> 关系代词: who,whom,whose,that,which,as
+>
+> 关系副词: when,where,why
+>
+> 当是非限制性定语从句时: that不可使用
+
+### that
+
+1. 定语 only**，**序数词**和**最高级**
+2. 先行词是 **nothing**,**everything**,**something**,**nothing**,**much**,**little**,**none**等被**不定代词**或被**不定代词**修饰时
 
 
 
@@ -250,6 +322,8 @@ It is the + `序数词`+ time + that 从句
 
 3. **肯定祈使句 + will/ won't you?**
 4. **否定祈使句 + will you?**
+5. 祈使句用**Let's**开头用**shall we**,用**let us**开头使用**will you**
+6. 
 
 
 
