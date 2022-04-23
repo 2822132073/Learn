@@ -123,7 +123,12 @@
 | `stick to doing sth.` | 坚持做某事 |
 | `be to do sth.` | 按照计划或者将要进行的 动作 |
 | `sb. is said to do` | 据说某人.... |
-|  |  |
+| `be busy doing sth.` | 忙于做（某事 ） |
+| `There is much chance that...` | 很有可能 …… |
+| `to the problem` |  |
+| `make an impression on` | 给…留下印象 |
+| `make their influence felt in` | 在……方面使的他们的影响力被感觉出来了 |
+| `have no objection to + sth / doing` | 不反对 |
 
 
 
