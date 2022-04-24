@@ -129,6 +129,9 @@
 | `make an impression on` | 给…留下印象 |
 | `make their influence felt in` | 在……方面使的他们的影响力被感觉出来了 |
 | `have no objection to + sth / doing` | 不反对 |
+| `accuse sb.of sth` | 指责某人某事 |
+| `just now` | 为一般过去时的提示词 |
+| `since + 句子` | 不论后面是什么时态,都用**have done** |
 
 
 
@@ -211,8 +214,6 @@
 | 现在 | should/would/could/might + 动词原型  |
 | 过去 | should/would/could/might + have done |
 | 将来 | should/would/could/might + 动词原型  |
-
-
 
 
 
