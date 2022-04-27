@@ -242,6 +242,12 @@
 
 ## 一些零碎知识点
 
+### as soon as
+
+>  **the moment**引导时间状语从句,相当于**as soon as** ,意思为"一....就",**as soon as** 一…就，引导时间状语从句时句子要注意主句用一般将来时，从句用一般现在时表示将来
+
+
+
 
 
 ### 一些固定用法
@@ -291,7 +297,7 @@ It is the + `序数词`+ time + that 从句
 
 
 
-**the moment**引导时间状语从句,相当于**as soon as** ,意思为"一....就"
+
 
 
 
@@ -329,7 +335,6 @@ It is the + `序数词`+ time + that 从句
 3. **肯定祈使句 + will/ won't you?**
 4. **否定祈使句 + will you?**
 5. 祈使句用**Let's**开头用**shall we**,用**let us**开头使用**will you**
-6. 
 
 
 
