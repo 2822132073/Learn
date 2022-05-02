@@ -44,6 +44,8 @@
 | `at once`                | 立刻,马上                          |
 | `at times`               | 有时,偶尔                          |
 | `apart from`             | 除...外                            |
+| `just as`                | 正像; 正如; 正当                   |
+| `far less`               | 远不及                             |
 
 ## 一些固定搭配
 
@@ -132,8 +134,9 @@
 | `accuse sb.of sth` | 指责某人某事 |
 | `just now` | 为一般过去时的提示词 |
 | `since + 句子` | 不论后面是什么时态,都用**have done** |
-
-
+| `influence on` | 固定搭配 |
+| `keep eye on` | 固定搭配 |
+|  |  |
 
 ## 英语作文需要记的一些句子
 
@@ -363,3 +366,18 @@ It is the + `序数词`+ time + that 从句
 
 
 ![img](https://pic4.zhimg.com/v2-9d91a8ffe85fcb46b993661852d05e3b_b.jpg)
+
+
+
+### 阅读中出现的一些句子
+
+
+
+| 句子                  | 意思               |
+| --------------------- | ------------------ |
+| `There is no denying` | 不可否认           |
+| `ever-changing`       | 千变万化的；常变的 |
+|                       |                    |
+
+
+
