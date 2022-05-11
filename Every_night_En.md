@@ -136,7 +136,9 @@
 | `since + 句子` | 不论后面是什么时态,都用**have done** |
 | `influence on` | 固定搭配 |
 | `keep eye on` | 固定搭配 |
-|  |  |
+| `to one's credit` | 值得赞扬的是 |
+| `responsible for` | 负责 |
+| `in memory of` | 纪念某人 |
 
 ## 英语作文需要记的一些句子
 
