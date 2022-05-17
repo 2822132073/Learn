@@ -139,6 +139,10 @@
 | `to one's credit` | 值得赞扬的是 |
 | `responsible for` | 负责 |
 | `in memory of` | 纪念某人 |
+| `be similar to sth./sb.` | 可以接人或者物 |
+| `be similar with sb.` | 后面只加人 |
+| `make full use of` | 充分使用 |
+|  |  |
 
 ## 英语作文需要记的一些句子
 
@@ -241,9 +245,15 @@
 1. 前面有 **only**，**序数词**和**最高级** 表示限定时
 2. 先行词是 **nothing**,**everything**,**something**,**nothing**,**much**,**little**,**none**等被**不定代词**或被**不定代词**修饰时
 
+### 介词+which(whom)
 
+> 当做介词宾语的是人时,使用whom,当定语从句使用的物或者其它时,使用which
+>
+> The enginner *with which* my father is talking has just come from abroad
 
+### as
 
+> as引导定语从句时通常构成**such…as**或**the same…as**固定搭配，其中**such**和**same**修饰其后的名词，as为关系代词，指代其前的名词引导定语从句
 
 ## 一些零碎知识点
 
