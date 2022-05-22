@@ -80,6 +80,7 @@
 | `escape doing sth.` | 逃避做某事，免于做某事 |
 | `consider doing sth.` | 考虑做某事 |
 | `have sb. do sth` | 让某人做某事 |
+| `have sth done` | 使某事被做 |
 | `not so + adj. + as` | 和....不同 |
 | `have access to` | 可以使用,有接触的....机会 |
 | `allow sb. to do sth.` | 允许某人做某事 |
