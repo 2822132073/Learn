@@ -250,7 +250,7 @@
 
 > 当做介词宾语的是人时,使用whom,当定语从句使用的物或者其它时,使用which
 >
-> The enginner *with which* my father is talking has just come from abroad
+> The enginner *with whom* my father is talking has just come from abroad
 
 ### as
 
