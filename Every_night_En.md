@@ -2,50 +2,53 @@
 
 ## 单词区分
 
-|                          |                                    |
-| ------------------------ | ---------------------------------- |
-| `some time`              | 一段时间                           |
-| `sometime`               | 某个时候                           |
-| `sometimes`              | 有时,间或                          |
-| `some times`             | 几倍,几次                          |
-| `electric`               | 电的，发电的，导电的               |
-| `electrical`             | 与电有关的，电的，指与电有关的事物 |
-| `electron`               | 电子                               |
-| `electronic`             | 电子的                             |
-| `on the way`             | 在路上                             |
-| `in the way`             | 妨碍,挡道                          |
-| `by the way`             | 顺便问一下                         |
-| `off the way`            | 远离正道                           |
-| `go through `            | 参加；经受                         |
-| `get through `           | 通过;到达                          |
-| `look through  `         | 浏览，温习                         |
-| `live through`           | 度过；经受过                       |
-| `Now that`               | 既然；由于                         |
-| `As if`                  | 犹如，好似                         |
-| `regardless of`          | 不顾，不加理会                     |
-| `Even though`            | 虽然，即使                         |
-| `Ever since`             | 从那时到现在                       |
-| `in a loss`              | 处于困境，一团糟糕                 |
-| `at a loss`              | 困惑                               |
-| `under no circumstances` | 绝不                               |
-| `too much`               | 太多                               |
-| `far from`               | 远离                               |
-| `less than`              | 少于                               |
-| `rather than `           | 而不是                             |
-| `other than`             | 除....以外                         |
-| `more than`              | 超过,不仅仅                        |
-| `in that`                | 因为,由于                          |
-| `in place of`            | 代替                               |
-| `in addition to`         | 除...之外                          |
-| `in charge of`           | 负责；主管                         |
-| `in terms of`            | 依据；按照；在……方面；以……措词     |
-| `in relation to`         | 关于；涉及                         |
-| `in spite of`            | 尽管；不管，不顾                   |
-| `at once`                | 立刻,马上                          |
-| `at times`               | 有时,偶尔                          |
-| `apart from`             | 除...外                            |
-| `just as`                | 正像; 正如; 正当                   |
-| `far less`               | 远不及                             |
+|                          |                                      |
+| ------------------------ | ------------------------------------ |
+| `some time`              | 一段时间                             |
+| `sometime`               | 某个时候                             |
+| `sometimes`              | 有时,间或                            |
+| `some times`             | 几倍,几次                            |
+| `diary`                  | 日记                                 |
+| `dairy`                  | 奶制的，乳品的；乳品业的，生产乳品的 |
+| `electric`               | 电的，发电的，导电的                 |
+| `electrical`             | 与电有关的，电的，指与电有关的事物   |
+| `electron`               | 电子                                 |
+| `electronic`             | 电子的                               |
+| `on the way`             | 在路上                               |
+| `in the way`             | 妨碍,挡道                            |
+| `by the way`             | 顺便问一下                           |
+| `off the way`            | 远离正道                             |
+| `go through `            | 参加；经受                           |
+| `get through `           | 通过;到达                            |
+| `look through  `         | 浏览，温习                           |
+| `live through`           | 度过；经受过                         |
+| `Now that`               | 既然；由于                           |
+| `As if`                  | 犹如，好似                           |
+| `regardless of`          | 不顾，不加理会                       |
+| `Even though`            | 虽然，即使                           |
+| `Ever since`             | 从那时到现在                         |
+| `in a loss`              | 处于困境，一团糟糕                   |
+| `at a loss`              | 困惑                                 |
+| `under no circumstances` | 绝不                                 |
+| `too much`               | 太多                                 |
+| `far from`               | 远离                                 |
+| `less than`              | 少于                                 |
+| `rather than `           | 而不是                               |
+| `other than`             | 除....以外                           |
+| `more than`              | 超过,不仅仅                          |
+| `in that`                | 因为,由于                            |
+| `in place of`            | 代替                                 |
+| `in addition to`         | 除...之外                            |
+| `in charge of`           | 负责；主管                           |
+| `in terms of`            | 依据；按照；在……方面；以……措词       |
+| `in relation to`         | 关于；涉及                           |
+| `in spite of`            | 尽管；不管，不顾                     |
+| `at once`                | 立刻,马上                            |
+| `at times`               | 有时,偶尔                            |
+| `apart from`             | 除...外                              |
+| `just as`                | 正像; 正如; 正当                     |
+| `far less`               | 远不及                               |
+|                          |                                      |
 
 ## 一些固定搭配
 
@@ -250,7 +253,7 @@
 
 > 当做介词宾语的是人时,使用whom,当定语从句使用的物或者其它时,使用which
 >
-> The enginner *with which* my father is talking has just come from abroad
+> The enginner *with whom* my father is talking has just come from abroad
 
 ### as
 
