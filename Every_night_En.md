@@ -115,7 +115,7 @@
 | `put up with` | 忍受 |
 | `in the + 基数词的复数形式` | 表示年代,例如, **In the 1970s/In the 1970's** |
 | `on the basic of` | 根据；基于… |
-| `have an impact on` | 对于……有影响；对……造成冲击 |
+| `impact on` | 对于……有影响；对……造成冲击 |
 | `time to spare` | 多出的时间 |
 | `be intended for` | 想用于； 预定给 |
 | `suggest sb. doing sth ` | 建议某人做某事 |
@@ -146,6 +146,12 @@
 | `be similar to sth./sb.` | 可以接人或者物 |
 | `be similar with sb.` | 后面只加人 |
 | `make full use of` | 充分使用 |
+| `be necessary for sb to do ` | 对…来说有必要 |
+| `regret doing sth.` | 后悔做了某事 |
+| `regret to do sth.` | 因要做某事而后悔 |
+| `with the help of` | 在...的帮助下 |
+| `on business` | 出差 |
+| `intend sth. for sb.\sth. be intended for sb` | 为某人准备某物 |
 |  |  |
 
 ## 英语作文需要记的一些句子
@@ -186,8 +192,8 @@
 
 ## 虚拟语气
 
-> 1. It is (hight/about) time (time).....中,从句谓语动词多用过去式,有时也用 should + 动原,should不可省略
-> 2. for fear that,lest,in case 后常用 should + 动原,should可以省略
+> 1. `It is (hight/about) time (time).....`中,从句谓语动词多用过去式,有时也用 `should` + 动原,`should`不可省略
+> 2. `for fear that,lest,in case` 后常用 `should` + 动原,`should`可以省略
 
 ### 在if引导的虚拟语气中
 
@@ -232,13 +238,19 @@
 
 
 
+### 倒装
 
+1. **Only + 状语 + 句子** (状语部分不需要倒装,句子部分需要倒装)
+2. **地点状语**在句首,使用完全倒装
+3. **not until** 在句首时,只有**not until**引导的部分需要进行部分倒装
+4. **so/such**放在句首时，后面用部分倒装
+5. **how**引导从句是要求部分倒装的
 
 ## 定语从句
 
 > 定语从句一般使用的有:
 >
-> 关系代词: who,whom,whose,that,which,as
+> 关系代词: who,whom,whose,that,which,as(在前面有so，as，same，such时使用)
 >
 > 关系副词: when,where,why
 >
@@ -318,14 +330,6 @@ It is the + `序数词`+ time + that 从句
 
 
 
-
-
-
-
-
-
-
-
 ### 系动词
 
 > 系动词没有被动形式
@@ -349,7 +353,7 @@ It is the + `序数词`+ time + that 从句
 1. 基本的是**前肯后否,前否后肯**
 2. 当主句的主语是 **I** 和 **We** ，谓语是 **think**，**believe**，**suppose**，**imagine**，**expect**，**consider**，**guess** 等跟“认为”、“猜想” 有关的词，且是「一般现在时」的时候，疑问部分跟从句对应
 
-![img](https://pic1.zhimg.com/v2-3f51db725444aab93eba6a89164d5f78_b.jpg)
+![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202051.png)
 
 3. **肯定祈使句 + will/ won't you?**
 4. **否定祈使句 + will you?**
@@ -379,9 +383,7 @@ It is the + `序数词`+ time + that 从句
 
 
 
-
-
-![img](https://pic4.zhimg.com/v2-9d91a8ffe85fcb46b993661852d05e3b_b.jpg)
+![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202106.png)
 
 
 
@@ -397,12 +399,17 @@ It is the + `序数词`+ time + that 从句
 
 
 
-![img](C:\Users\86134\Desktop\Learn\Every_night_En.assets\7acb0a46f21fbe0976ebb93bc04922358744ad13.jpeg)
+![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202229.png)
 
-![img](C:\Users\86134\Desktop\Learn\Every_night_En.assets\f31fbe096b63f6243f7316da2c6dc5fe1b4ca3e8.jpeg)
+![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202245.png)
 
 ![img](C:\Users\86134\Desktop\Learn\Every_night_En.assets\b64543a98226cffcf20dbdaf16286496f603eabc.jpeg)
 
-![img](C:\Users\86134\Desktop\Learn\Every_night_En.assets\63d9f2d3572c11df1039196fcd0e4cd6f603c246.jpeg)
+![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202254.png)
 
-![img](C:\Users\86134\Desktop\Learn\Every_night_En.assets\0dd7912397dda144a13bde0f199efea40cf48608.jpeg)
+![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202305.png)
+
+
+
+
+
