@@ -48,7 +48,8 @@
 | `apart from`             | 除...外                              |
 | `just as`                | 正像; 正如; 正当                     |
 | `far less`               | 远不及                               |
-|                          |                                      |
+| `more than`              | 不仅仅，超过                         |
+| `no more than`           | 仅仅，只有                           |
 
 ## 一些固定搭配
 
@@ -152,7 +153,9 @@
 | `with the help of` | 在...的帮助下 |
 | `on business` | 出差 |
 | `intend sth. for sb.\sth. be intended for sb` | 为某人准备某物 |
-|  |  |
+| `keep+宾语+doing(主动)/done(被动)` |  |
+|  | |
+|  | |
 
 ## 英语作文需要记的一些句子
 
@@ -271,13 +274,38 @@
 
 > as引导定语从句时通常构成**such…as**或**the same…as**固定搭配，其中**such**和**same**修饰其后的名词，as为关系代词，指代其前的名词引导定语从句
 
+
+
+
+
+
+
 ## 一些零碎知识点
 
 ### as soon as
 
 >  **the moment**引导时间状语从句,相当于**as soon as** ,意思为"一....就",**as soon as** 一…就，引导时间状语从句时句子要注意主句用一般将来时，从句用一般现在时表示将来
 
+### as...as...
 
+> 在as...as...引导的比较级结构中，被比较的部分必须用平行结构。
+
+### with
+
+> with复合结构常用不定式的一般式表示被动
+
+### whether...or...
+
+> whether...or....前后采用
+
+
+
+
+
+## 非谓语动词
+
+1. 非谓语动词的时态是根据,句子中主句的时态来进行变化的
+2. 表示目的使用to do
 
 
 
@@ -357,7 +385,9 @@ It is the + `序数词`+ time + that 从句
 
 3. **肯定祈使句 + will/ won't you?**
 4. **否定祈使句 + will you?**
-5. 祈使句用**Let's**开头用**shall we**,用**let us**开头使用**will you**
+5. 用**Let's**开头用**shall we**
+6. 用**let us**开头使用**will you**
+7. **Let me**用**will you/may i**
 
 
 

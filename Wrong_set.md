@@ -47,3 +47,15 @@
 ![image-20220526215923066](https://cdn.jsdelivr.net/gh/2822132073/image/image-20220526215923066.png)
 
 > 句中包含Nothing,所以后面应该使用肯定的形式,又因为谓语动词是is,所以选D
+
+
+
+
+
+![image-20220527211444223](https://cdn.jsdelivr.net/gh/2822132073/image/image-20220527211444223.png)
+
+> 动名词做主语,谓语动词用单数
+
+![image-20220527211621634](https://cdn.jsdelivr.net/gh/2822132073/image/image-20220527211621634.png)
+
+> 反意疑问句,Few of them 表示否定意义,所以后面用肯定,选择C
