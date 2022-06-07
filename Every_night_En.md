@@ -68,7 +68,7 @@
 | `spend ...on sth.` | 在某物上花费.... |
 | `too+形容词+a/an+名词+for sb. to do` | 对某人来说太……而不能…… |
 | `used to do ` | 过去常常做某事 |
-| `be used to doing` | 习惯于做某事 |
+| `used to doing` | 习惯于做某事 |
 | `no matter how/however+形容词/副词+主语+谓语` |  |
 | `only to do` | 不料 |
 | `make + it + adj + to do sth.` |  |
@@ -154,7 +154,8 @@
 | `on business` | 出差 |
 | `intend sth. for sb.\sth. be intended for sb` | 为某人准备某物 |
 | `keep+宾语+doing(主动)/done(被动)` |  |
-|  | |
+| `get involved in` | 参与 |
+| `for the purpose of` | 为了……目的 |
 |  | |
 
 ## 英语作文需要记的一些句子
@@ -253,7 +254,7 @@
 
 > 定语从句一般使用的有:
 >
-> 关系代词: who,whom,whose,that,which,as(在前面有so，as，same，such时使用)
+> 关系代词: who,whom,whose,that,which,as(在前面有so，the same，such时使用)
 >
 > 关系副词: when,where,why
 >
@@ -298,6 +299,12 @@
 
 > whether...or....前后采用
 
+### 感叹句
+
+> How+形容词/副词+主谓
+>
+> what+冠词+形容词+名词+主谓
+
 
 
 
@@ -311,9 +318,15 @@
 
 ### 一些固定用法
 
-It is the + `序数词`+ time + that 从句
+It is/was the + `序数词`+ time + that 从句
 
-​	从句用过去完成时,表示"那是.......第几次......"
+> 主句使用is,从句中使用现在完成时,
+>
+> 主句使用was,从句使用过去完成时
+
+
+
+
 
 1. **such** 是形容词，可以作定语，修饰名词或名词词组，也可以作表语
 2. 介词后面应该为动名词ing或者名词
@@ -345,14 +358,6 @@ It is the + `序数词`+ time + that 从句
 > `read`,` write`, `act`,` iron`,` cut`, `draw`,` drive`,` sell`,` wash`,` clean`,` wear`,` open`,` cook`,` lock`,` shut`,` dry`,` eat`,` drink`等经常与`well`,`easily`,`smoothly`副词连用,主动表被动
 
 > 当 **need**,**want**,**require**作为需要时,并且其前面的主语为**名词**或者**代词**时,其后常用动名词做宾语
-
-### 倒装
-
-1. **Only + 状语 + 句子** (状语部分不需要倒装,句子部分需要倒装)
-2. **地点状语**在句首,使用倒装语序
-3. **not until** 在句首时,只有**not until**引导的部分需要进行部分倒装
-4. **so/such**放在句首时，后面用部分倒装
-5. **how**引导从句是要求部分倒装的
 
 
 
@@ -408,10 +413,6 @@ It is the + `序数词`+ time + that 从句
 > 疑问词 + is/was it + that/who/whom + 其他部分
 
 
-
-How+形容词/副词+主谓
-
-what+冠词+形容词+名词+主谓
 
 
 
