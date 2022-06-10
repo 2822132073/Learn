@@ -1,5 +1,3 @@
-# 英语
-
 ## 单词区分
 
 |                          |                                      |
@@ -196,7 +194,7 @@
 
 ## 虚拟语气
 
-> 1. `It is (hight/about) time (time).....`中,从句谓语动词多用过去式,有时也用 `should` + 动原,`should`不可省略
+> 1. `It is (hight/about) time (time).....`中,从句谓语动词**多用过去式**,有时也用 `should` + 动原,`should`不可省略
 > 2. `for fear that,lest,in case` 后常用 `should` + 动原,`should`可以省略
 
 ### 在if引导的虚拟语气中
@@ -305,7 +303,18 @@
 >
 > what+冠词+形容词+名词+主谓
 
+### 反意疑问句
 
+1. 基本的是**前肯后否,前否后肯**
+2. 当主句的主语是 **I** 和 **We** ，谓语是 **think**，**believe**，**suppose**，**imagine**，**expect**，**consider**，**guess** 等跟“认为”、“猜想” 有关的词，且是「一般现在时」的时候，疑问部分跟从句对应
+
+![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202051.png)
+
+3. **肯定祈使句 + will/ won't you?**
+4. **否定祈使句 + will you?**
+5. 用**Let's**开头用**shall we**
+6. 用**let us**开头使用**will you**
+7. **Let me**用**will you/may i**
 
 ### in,on,at
 
@@ -326,7 +335,7 @@
 
 It is/was the + `序数词`+ time + that 从句
 
-> 主句使用is,从句中使用现在完成时,
+> 主句使用is,从句中使用现在完成时
 >
 > 主句使用was,从句使用过去完成时
 
@@ -387,18 +396,7 @@ It is/was the + `序数词`+ time + that 从句
 
 
 
-### 反意疑问句
 
-1. 基本的是**前肯后否,前否后肯**
-2. 当主句的主语是 **I** 和 **We** ，谓语是 **think**，**believe**，**suppose**，**imagine**，**expect**，**consider**，**guess** 等跟“认为”、“猜想” 有关的词，且是「一般现在时」的时候，疑问部分跟从句对应
-
-![](https://cdn.jsdelivr.net/gh/2822132073/image/20220525202051.png)
-
-3. **肯定祈使句 + will/ won't you?**
-4. **否定祈使句 + will you?**
-5. 用**Let's**开头用**shall we**
-6. 用**let us**开头使用**will you**
-7. **Let me**用**will you/may i**
 
 
 
@@ -408,7 +406,7 @@ It is/was the + `序数词`+ time + that 从句
 
 #### 陈述句强调句
 
-> It is / was + 被强调部分 + that / who / whom**（强调主语且主语指人可用who，强调宾语且宾语指人可用whom）**+ 其他部分
+> It is / was + 被强调部分 + that / who / whom **(强调主语且主语指人可用who，强调宾语且宾语指人可用whom)** + 其他部分
 
 #### 一般疑问句强调句
 
