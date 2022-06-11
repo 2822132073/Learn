@@ -3,8 +3,8 @@
 |                          |                                      |
 | ------------------------ | ------------------------------------ |
 | `some time`              | 一段时间                             |
-| `sometime`               | 某个时候                             |
-| `sometimes`              | 有时,间或                            |
+| `sometime`               | 某个时候(在某一个时间点)             |
+| `sometimes`              | 有时,间或(在某几个时间点)            |
 | `some times`             | 几倍,几次                            |
 | `diary`                  | 日记                                 |
 | `dairy`                  | 奶制的，乳品的；乳品业的，生产乳品的 |
@@ -155,6 +155,10 @@
 | `get involved in` | 参与 |
 | `for the purpose of` | 为了……目的 |
 | `Not that...but that...` | 不是因为...而是因为.... |
+| `be absent from` | 缺席 |
+| `be worth doing` | 值得.... |
+| `damage to` | 固定搭配 |
+| `pull oneself together` | 振作起来 |
 
 ## 英语作文需要记的一些句子
 
