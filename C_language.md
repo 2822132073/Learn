@@ -43,6 +43,11 @@
 33. 在转义字符的表示中,十六进制只允许使用**x**,不允许使用**0x**和大写的**X**
 34. **puts()**函数后面自动加上换行符
 35. **ASCII**字符最多255个,对应八进制为 376,对应16进制为 fe
+36. **素数**:大于1的[自然数](https://baike.baidu.com/item/自然数/385394)中，除了1和它本身以外不再有其他[因数](https://baike.baidu.com/item/因数/9539111)的自然数
+37. 在写编程题的时候,如果要对数组进行操作,记住数组名是一个指针常量,是无法改变的
+38. 强制类型转换需要将类型用括号括起来,不然就是语法错误,例如 `(int)(a+b)`这样是对的,`int(a+b)`是错误的
+39. 注意跳出循环的条件
+40. `char *s="abcde";`这样的一段代码,生成的是字符串常量,`s`指向的字符串是无法被修改的,修改的话会报错`Segmentation fault`
 
 > 下列函数正确:
 >
@@ -125,7 +130,7 @@
 2. `scanf("%3d%3d",&a,&b)`;*//当输入为：1234567时，将123赋给a，456赋给b。*
 3. `scanf("%d %*d %d",&a,&b);`,*//1 2 3时，1赋给 a ，2舍弃，3赋给 b 。*
 4. `scanf("%3d%*2d%3d%3d",&n1,&n2,&n3);`*//输入123456789,n1为123,n2为678,n3为9*
-5. `scanf`不可以指定小数位宽
+5. `scanf`不可以指定小数位宽,如果指定小数,这个scanf为调用错误,但是编译不会报错
 6. `scanf`在输入字符串时,遇到空格结束输入而不是遇到回车
 
 
@@ -298,6 +303,77 @@ void main()
 }
 ```
 
+#### 选择法排序
+
+```c
+//选择法排序
+void choiceSort(int n[10],int len){
+	int i,j,k,temp;
+	for(i=0;i<len-1;i++){ //10个数字需要进行9次扫描,不需要扫描10次,9次扫描后,最后一定是最大的数
+		k=i;     
+		for(j=i+1;j<len;j++){  //每次都需要比较到最后一位
+			if(n[k]>n[j])k=j;   //将数组中最小的数存储在k中  
+		}
+		temp=n[k];  //将最小的值向前移动
+		n[k]=n[i];
+		n[i]=temp;
+	}	
+}
+
+
+```
+
+#### 插入排序
+
+```c
+void charu(){
+	int a[10]={9,1,5,4,2,3,6,8,7,10};
+	int i,j,k,temp;
+	for(i=0;i<10-1;i++){
+		for(j=i+1;j>0;j--){
+			if(a[j]>a[j-1]){
+				temp=a[j-1];
+				a[j-1]=a[j];
+				a[j]=temp;
+			}
+		}
+	}
+	for(i=0;i<10;i++){
+		printf("%d ",a[i]);
+	}
+}
+```
+
+
+
+#### 行列置换
+
+```c
+void main(){
+	int a[3][3]={1,2,3,4,5,6,7,8,9};
+	int i,j,temp;
+	for(i=1;i<3;i++){
+		for(j=0;j<3/2;j++){
+			temp=a[i][j];
+			a[i][j]=a[j][i];
+			a[j][i]=temp;
+		}
+	}
+	for(i=0;i<3;i++){
+		for(j=0;j<3;j++){
+			printf("%d ",a[i][j]);
+		}
+	printf("\n");
+	}
+}
+```
+
+```
+1 4 7
+2 5 6
+3 8 9
+```
+
 
 
 #### 倒叙输出
@@ -344,6 +420,7 @@ void reversal_string(char *s){
 		s[len-i-1]=s[i];
 		s[i]=c;
 	}
+}
 ```
 
 #### 寻找最长单词
@@ -423,36 +500,23 @@ void copyVowel(char *s1,char *s2){
 }
 ```
 
-#### 选择法排序
 
-```c
-//选择法排序
-void choiceSort(int n[10],int len){
-	int i,j,k,temp;
-	for(i=0;i<len-1;i++){ //10个数字需要进行9次扫描,不需要扫描10次,9次扫描后,最后一定是最大的数
-		k=i;     
-		for(j=i+1;j<len;j++){  //每次都需要比较到最后一位
-			if(n[k]>n[j])k=j;   //将数组中最小的数存储在k中  
-		}
-		temp=n[k];  //将最小的值向前移动
-		n[k]=n[i];
-		n[i]=temp;
-	}	
-}
-
-
-```
 
 #### 对角线元素之和
 
 ```c
 //对角线元素之和
 int diagonalSum(int a[3][3]){
-	int i,sum=0;
-	for(i=0;i<3;i++){
-		sum+=a[i][i];
+	int sum=0,i;
+	int a[N][N]={1,2,3,4,5,6,7,8,9};
+	for(i=0;i<N;i++){
+		if(i==(N-i-1)){
+			sum += a[i][N-1-i];
+		}else{
+			sum += a[i][N-1-i]+a[i][i];
+		}
 	}
-	return sum;
+	printf("%d\n",sum);
 }
 ```
 
@@ -476,6 +540,25 @@ void insert(int a[10],int len,int insertNumber){
 }
 ```
 
+#### 阶乘之和
+
+```c
+int factorial_sum(int n){
+	int i,j,k,sum=0;
+	for(i=1;i<=n;i++){
+		k=1;
+		for(j=1;j<=i;j++){
+			k*=j;
+		}
+		sum+=k;
+	}
+	return sum;
+}
+
+```
+
+
+
 #### 杨辉三角
 
 ```c
@@ -485,7 +568,7 @@ void  pascalTriangle(int a[10][10],int row){
 	for(i=0;i<row;i++){
 		a[i][0]=a[i][i]=1;
 		for(j=1;j<i;j++){
-			a[i][j]=a[i-1][j]+a[i-1][j-1];
+			a[i][j]=a[i-1][j]+a[i-1][j-1];  //杨辉三角的规律,等于上一层同位置的元素,和其前一个元素的和
 		}
 	}
 	for(i=0;i<row;i++){
@@ -616,7 +699,7 @@ int strcmp(char *s1,char * s2){
 }
 ```
 
-#### 课本137,第5题
+####  课本137,第5题
 
 ```c
 int fun(int n){

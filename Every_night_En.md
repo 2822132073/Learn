@@ -48,6 +48,10 @@
 | `far less`               | 远不及                               |
 | `more than`              | 不仅仅，超过                         |
 | `no more than`           | 仅仅，只有                           |
+| `on purpose`             | 有目的的,故意的                      |
+| `in reality`             | 实际上；事实上                       |
+| `by accident`            | 偶然；意外地                         |
+| `in view of`             | 鉴于                                 |
 
 ## 一些固定搭配
 
@@ -159,6 +163,8 @@
 | `be worth doing` | 值得.... |
 | `damage to` | 固定搭配 |
 | `pull oneself together` | 振作起来 |
+| `be faced with` | 面临；面对 |
+| `be in a postion to do sth.` | 有能力做某事 |
 
 ## 英语作文需要记的一些句子
 
@@ -182,7 +188,7 @@
 
    > 请原谅我没有及时给你回信
 
-6. I shall be looking forward to hearing from you soom.
+6. I shall be looking forward to hearing from you soo.
 
    > 盼望很快收到您的来信
 
