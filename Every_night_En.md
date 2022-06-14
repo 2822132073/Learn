@@ -51,7 +51,10 @@
 | `on purpose`             | 有目的的,故意的                      |
 | `in reality`             | 实际上；事实上                       |
 | `by accident`            | 偶然；意外地                         |
-| `in view of`             | 鉴于                                 |
+| `in view of`             | 鉴于,考虑到                          |
+| `in spite of`            | 尽管                                 |
+| `in charge of`           | 掌管.负责                            |
+| `in case of`             | 以防                                 |
 
 ## 一些固定搭配
 
