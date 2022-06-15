@@ -103,6 +103,7 @@
 | `in one's 基数词的复数形式` | 在某人几岁的时候 |
 | `on the market` | 上市,出售 |
 | `let alone` | 更不用说 |
+| `let sb. do sth.` | 让某人做某事 |
 | `mind doing sth` | 介意做某事 |
 | `agree on` | 就.....达成协议 |
 | `agree to` | 同意.... |
@@ -156,6 +157,7 @@
 | `regret doing sth.` | 后悔做了某事 |
 | `regret to do sth.` | 因要做某事而后悔 |
 | `with the help of` | 在...的帮助下 |
+| `can't help doing sth./can't help but do sth.` | 忍不住做某事 |
 | `on business` | 出差 |
 | `intend sth. for sb.\sth. be intended for sb` | 为某人准备某物 |
 | `keep+宾语+doing(主动)/done(被动)` |  |
@@ -168,6 +170,7 @@
 | `pull oneself together` | 振作起来 |
 | `be faced with` | 面临；面对 |
 | `be in a postion to do sth.` | 有能力做某事 |
+| `in contrast to` | 与……形成对照 |
 
 ## 英语作文需要记的一些句子
 
