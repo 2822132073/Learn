@@ -55,6 +55,7 @@
 | `in spite of`            | 尽管                                 |
 | `in charge of`           | 掌管.负责                            |
 | `in case of`             | 以防                                 |
+| `as a whole`             | 看做一个整体                         |
 
 ## 一些固定搭配
 
